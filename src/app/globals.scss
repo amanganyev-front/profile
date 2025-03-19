@@ -1,14 +1,7 @@
 :root {
     --background: #ffffff;
     --foreground: #171717;
-    --font-electrolize: "Electrolize", sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background: #0a0a0a;
-        --foreground: #ededed;
-    }
+    --font-montserrat: "Montserrat", sans-serif;
 }
 
 html,
@@ -23,7 +16,7 @@ body {
     justify-content: center;
     color: var(--foreground);
     background: var(--background);
-    font-family: var(--font-electrolize);
+    font-family: var(--font-montserrat);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -40,12 +33,5 @@ a {
 }
 
 button {
-    font-family: var(--font-electrolize);
     cursor: pointer;
-}
-
-@media (prefers-color-scheme: dark) {
-    html {
-        color-scheme: dark;
-    }
 }

@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Electrolize } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.scss";
 
-const electrolize = Electrolize({
-    weight: ["400"],
+const montserrat = Montserrat({
+    weight: ["400", "500", "600", "700", "800", "900"],
     subsets: ["latin"],
-    variable: "--font-electrolize",
+    variable: "--font-montserrat",
 });
 
 export const metadata: Metadata = {
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={`${electrolize.variable}`}>{children}</body>
+            <body className={`${montserrat.variable}`}>{children}</body>
         </html>
     );
 }

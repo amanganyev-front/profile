@@ -1,0 +1,18 @@
+.Skills {
+    width: 100%;
+    padding: 30px;
+    background-color: bisque;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillsList {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, auto);
+}
+

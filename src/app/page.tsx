@@ -1,6 +1,6 @@
 "use client";
 
-import { AboutMe, Header, Main, Projects, Skills, Footer } from "@/widgets";
+import { Header, Footer } from "@/widgets";
 import styles from "./page.module.scss";
 
 export default function Home() {
